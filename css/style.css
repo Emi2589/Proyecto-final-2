@@ -1,0 +1,452 @@
+html {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+}
+
+body {
+    background-color:rgb(202, 202, 207);
+    margin: 0;
+
+}
+
+
+
+
+
+/*                   index                   */
+ 
+
+
+
+/* Header */
+
+
+
+
+.header-container-index {
+    background-image: url(../imagen/indexHed2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center center;
+    
+    background-attachment: fixed;
+    
+    padding: 2rem 0;
+    
+    height: 80vh;
+    width: 100%;
+
+    background-color: black;
+    
+        
+}
+
+.div-container-index {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 20px 0;
+}
+
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-container-index a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+   
+    
+}
+
+
+
+.nav-container ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+
+}.nav-container ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.nav-container ul li a {
+    display: block;
+    padding: 6px 6px;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    
+    
+}
+
+.nav-container ul li a:hover {
+background-color: #4a4a4a;
+}
+
+
+
+
+.paragraph-header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    color: black;
+    
+}
+
+
+.paragraph-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+/* Fin Header */
+
+
+
+/* Main */
+
+
+.main-index {
+    
+    padding-top: 75px;
+
+}
+
+.h1-main-index {
+    padding-bottom: 40px;
+}
+
+
+/* Fin Main */
+
+
+
+
+
+/* Section */
+
+/*
+.section-container-index {
+
+    width: 100%;
+    height: 300px;
+    
+}
+*/
+
+.div-container-index-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.video {
+    width: 35%;
+    height: 35vh;
+    padding: 4px;
+    margin: 4px;   
+}
+
+
+
+/* Fin Section */
+
+
+
+
+
+
+/* Footer */
+
+
+.redes  {
+    width: 7%;
+
+    padding: 0;
+    margin: 0;
+   
+}
+
+.bg-light, .text-cente, .text-white {
+    margin-top: 150px;
+}
+
+
+
+/* Fin Footer */
+
+
+
+
+
+
+
+
+
+/*                 Fin index                   */
+
+
+
+
+
+
+
+
+/*                 Servicios                   */
+
+
+/* Header */
+
+.header-container-servicios {
+    background-image: url(../imagen/indexHed4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    background-position: center center;
+    
+    background-attachment: fixed;
+    
+    padding: 2rem 0;
+    
+    height: 80vh;
+    width: 100%;
+
+    background-color: black; }
+
+
+    .header-container-servicios a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+       
+        
+    }
+
+    .div-container-servicios {
+        width: 100%;
+        background-color: #333;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        padding: 20px 0;
+    }
+
+/* Fin Header */
+
+
+
+
+
+
+
+
+/*                FIN SERVICIOS                    */
+
+
+
+
+
+
+
+/*                   NOSOTROS                     */
+
+
+
+
+ /* Header */
+
+    .header-container-nosotros {
+        background-image: url(../imagen/somos.jpg);
+        background-repeat: no-repeat;
+      background-size: cover;
+        
+        background-attachment: fixed;
+        padding: 2rem 0;
+        height: 80vh;
+        width: 100%;
+        
+    }
+    
+    
+    
+    .header-container-nosotros a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+       
+        
+    }
+    
+
+    .paragraph-header1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        margin-top: 10rem;
+        margin-bottom: 0;
+        color: black;
+        
+    }
+    
+    
+    .paragraph-header {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 50px;
+    
+    }
+
+
+ /* Fin Header */
+
+
+/*                   FIN NOSOTROS                     */
+
+
+
+
+
+
+
+
+
+
+/*                   CONTACTO                        */
+
+
+    /*Header */
+
+.header-container-contacto {
+    background-image: url(../imagen/contacto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    padding: 2rem 0;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+.header-container-contacto a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+   
+   /* Fin Header */
+
+    .mapa {
+        width: 30%;
+        height: 9rem;
+    }
+
+
+
+
+/*                   FIN CONTACTO                    */
+
+
+
+
+
+
+/*                   CLIENTES                        */
+
+
+  /* Header */
+
+.header-container-clientes {
+    background-image: url(../imagen/clientes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    padding: 2rem 0;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+.header-container-clientes a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+   
+    
+}
+
+/* Fin Header */
+
+
+/* Main */
+
+.main-clientes-container {
+    margin-top: 35px;
+    margin-bottom: 100px;
+
+
+}
+
+/* Fin Main */
+
+
+
+/*                  FIN CLIENTES                        */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Parrafo de header de las paginas Nosotros, Contactos y Clientes */
+
+
+.paragraph-header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+
