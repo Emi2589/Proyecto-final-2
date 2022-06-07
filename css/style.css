@@ -13,8 +13,7 @@ body {
 
 
 
-
-/*                   index                   */
+/*                                index                                 */
  
 
 
@@ -23,103 +22,82 @@ body {
 
 
 
-
 .header-container-index {
     background-image: url(../imagen/indexHed2.webp);
     background-repeat: no-repeat;
     background-size: cover;
-
     background-position: center center;
-    
     background-attachment: fixed;
-    
-    padding: 2rem 0;
-    
     height: 80vh;
     width: 100%;
-
     background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
         
 }
 
 .div-container-index {
-    width: 100%;
-    background-color: #333;
+    
+   
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
-    padding: 20px 0;
-}
-
-
-.logo-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.header-container-index a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
    
-    
+
 }
 
 
-
-.nav-container ul {
- margin: 0;
- padding: 0;
- list-style: none;
-
-}.nav-container ul li {
-    display: inline-block;
-    padding: 0 30px;
-}
-
-.nav-container ul li a {
-    display: block;
-    padding: 6px 6px;
+.nav-item:hover {
+    background-color: #4a4a4a;
+    padding: 2px 2px;
     transition: all 0.4s linear;
-    border-radius: 5px;
+    border-radius: 7px;
     
+    }
+
+
+    .paragraph-header1 {
+       
+
+        font-size: 4rem;
+        margin-top: 10rem;
+        
+        color: black;
+        
+    }
+
     
-}
-
-.nav-container ul li a:hover {
-background-color: #4a4a4a;
-}
-
-
-
-
-.paragraph-header1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-    margin-top: 10rem;
-    margin-bottom: 0;
-    color: black;
-    
-}
-
-
 .paragraph-header {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     font-size: 2rem;
     margin-top: 50px;
 
 }
 
 
+@media screen and (max-width:800px ) {
+    .paragraph-header1 {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+
+    .paragraph-header {
+
+display: none;
+ 
+    }
+    
+}
 
 
 
@@ -127,12 +105,20 @@ background-color: #4a4a4a;
 
 
 
+
+    
 /* Main */
+
+
+
+.section-container-index {
+    padding: 50px;
+}
 
 
 .main-index {
     
-    padding-top: 75px;
+    padding: 50px;
 
 }
 
@@ -141,63 +127,39 @@ background-color: #4a4a4a;
 }
 
 
+
+.div-section-indexxs {
+    display: none;
+}
+
+
+@media screen and (max-width:1140px ) {
+
+    .div-section-indexlg {
+        display: none;
+    }
+
+    .div-section-indexxs {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+
+
+
 /* Fin Main */
 
 
 
 
 
-/* Section */
-
-/*
-.section-container-index {
-
-    width: 100%;
-    height: 300px;
-    
-}
-*/
-
-.div-container-index-section {
-    display: flex;
-    justify-content: center;
-}
-
-
-.video {
-    width: 35%;
-    height: 35vh;
-    padding: 4px;
-    margin: 4px;   
-}
-
-
-
-/* Fin Section */
-
-
-
-
-
-
-/* Footer */
-
-
-.redes  {
-    width: 7%;
-
-    padding: 0;
-    margin: 0;
-   
-}
-
-.bg-light, .text-cente, .text-white {
-    margin-top: 150px;
-}
-
-
-
-/* Fin Footer */
+/*                             Fin index                                */
 
 
 
@@ -207,16 +169,9 @@ background-color: #4a4a4a;
 
 
 
-/*                 Fin index                   */
 
 
-
-
-
-
-
-
-/*                 Servicios                   */
+/*                              Servicios                                */
 
 
 /* Header */
@@ -225,39 +180,119 @@ background-color: #4a4a4a;
     background-image: url(../imagen/indexHed4.webp);
     background-repeat: no-repeat;
     background-size: cover;
-
-
     background-position: center center;
-    
     background-attachment: fixed;
-    
-    padding: 2rem 0;
-    
     height: 80vh;
     width: 100%;
+    background-color: black;
 
-    background-color: black; }
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 
-    .header-container-servicios a {
-        color: white;
-        text-decoration: none;
-        font-size: 1rem;
-       
+    /* Fin Header */
+
+
+
+    /* Main */
+
+    .main-servicios {
+        padding: 50px;
+    } 
+
+
+.imag-servicios1:hover, 
+.imag-servicios2:hover, 
+.imag-servicios3:hover, 
+.imag-servicios4:hover, 
+.imag-servicios5:hover, 
+.imag-servicios6:hover {
+
+    transform: translatey(400px);
+    opacity: 0;
+    transition: all 2s;
+    
+    }
+    
+
+.div-servicios1 {
+    background-image: url(../imagen/images-transf.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+.div-servicios2 {
+    background-image: url(../imagen/images-6.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.div-servicios3 {
+    background-image: url(../imagen/images-3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios4 {
+    background-image: url(../imagen/images-7.png);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.div-servicios5 {
+    background-image: url(../imagen/images-5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios6 {
+    background-image: url(../imagen/images-8.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-main-servicios800 {
+    display: none;
+}
+
+
+@media screen and (max-width:800px ) {
+
+    .div-main-servicioslg {
+        display: none;
+        }
+
+
+
+        .div-main-serviciosimg {
+            display: none;
+
+            }
         
+    
+            .div-main-servicios800 {
+        display: block;
+
     }
 
-    .div-container-servicios {
-        width: 100%;
-        background-color: #333;
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        padding: 20px 0;
-    }
 
-/* Fin Header */
+
+}
 
 
 /* Main */
@@ -332,10 +367,14 @@ background-color: #4a4a4a;
 
 
 
+/* Fin Main */
 
 
 
-/*                FIN SERVICIOS                    */
+
+/*                           FIN SERVICIOS                              */
+
+
 
 
 
@@ -350,108 +389,152 @@ background-color: #4a4a4a;
 
  /* Header */
 
-    .header-container-nosotros {
-        background-image: url(../imagen/somos.jpg);
-        background-repeat: no-repeat;
-      background-size: cover;
-        
-        background-attachment: fixed;
-        padding: 2rem 0;
-        height: 80vh;
-        width: 100%;
-        
-    }
-    
-    
-    
-    .header-container-nosotros a {
-        color: white;
-        text-decoration: none;
-        font-size: 1rem;
-       
-        
-    }
-    
-
-    .paragraph-header1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 4rem;
-        margin-top: 10rem;
-        margin-bottom: 0;
-        color: black;
-        
-    }
-    
-    
-    .paragraph-header {
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        margin-top: 50px;
-    
-    }
-
-
- /* Fin Header */
-
-
-/*                   FIN NOSOTROS                     */
-
-
-
-
-
-
-
-
-
-
-/*                   CONTACTO                        */
-
-
-    /*Header */
-
-.header-container-contacto {
-    background-image: url(../imagen/contacto.webp);
+ .header-container-nosotros {
+    background-image: url(../imagen/somos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center center;
     background-attachment: fixed;
-    padding: 2rem 0;
     height: 80vh;
     width: 100%;
-    
-}
+    background-color: black;
 
-.header-container-contacto a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    
-}
-   
-   /* Fin Header */
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
 
-    .mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    
+
+    .main-nosotros {
+        padding: 50px;
+    }
+
+
+    .paragraph-header2 {
+
+        /* estas propiedades son aplicadas al header del 
+        html de nosotros, contacto y servicios */
+
+        font-size: 4rem;
+        margin-top: 10rem;
+        
+        color: white;
+    }
+
+    @media screen and (max-width:800px ) {
+
+        .paragraph-header2 {
+            font-size: 2rem;
+            margin-top: 5rem;
+
+        }
+    
+    
+    
+        }
+    
+    
+
+
+
+     /* Fin Header */
+
+
+
+
+
+
+/*                                             FIN NOSOTROS                                    */
+
+
+
+
+
+
+
+
+
+
+ 
+/*                                               CONTACTO                                       */
+
+
+
+
+
+
+    /* Header */
+
+    .header-container-contacto {
+        background-image: url(../imagen/contacto.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        height: 80vh;
+        width: 100%;
+        background-color: black;
+    
+        /* estas tres propiedades
+        se las ponemos para centrar
+        la posicion del parrafo que esta
+        dentro del header */
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+       /* Fin Header */
+
+
+
+
+
+       /* Main */
+
+
+
+       .main-contacto {
+           padding: 50px;
+       }
+
+
+
+       .mapa {
         width: 30%;
         height: 9rem;
     }
 
 
 
-
-/*                   FIN CONTACTO                    */
-
+       /* Fin Main */
 
 
 
 
 
-/*                   CLIENTES                        */
+       /*                                          FIN CONTACTO                                               */
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /*                                             CLIENTES                                                */
 
 
   /* Header */
@@ -460,62 +543,68 @@ background-color: #4a4a4a;
     background-image: url(../imagen/clientes.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center center;
     background-attachment: fixed;
-    padding: 2rem 0;
     height: 80vh;
     width: 100%;
-    
-}
+    background-color: black;
 
-.header-container-clientes a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-   
-    
-}
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
 
-/* Fin Header */
-
-
-/* Main */
-
-.main-clientes-container {
-    margin-top: 35px;
-    margin-bottom: 100px;
-
-
-}
-
-/* Fin Main */
-
-
-
-/*                  FIN CLIENTES                        */
-
-
-
-
-
-
-
-
-
-
-
-
-/* Parrafo de header de las paginas Nosotros, Contactos y Clientes */
-
-
-.paragraph-header2 {
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 4rem;
-    margin-top: 10rem;
-    margin-bottom: 0;
-    color: white;
+    justify-content: center;
+    
 }
+
+
+
+.main-clientes{
+    padding: 50px;
+}
+
+
+.section-clientes {
+    padding: 50px;
+
+    
+}
+
+
+.imag-clientes {
+    width: 40%;
+}
+
+@media screen and (max-width:800px ) {
+
+    .imag-clientes {
+        width: 100%;
+        }
+
+
+    }
+
+
+
+
+ /*                                                 FIN CLIENTES                                                */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
