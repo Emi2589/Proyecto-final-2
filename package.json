@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final-2",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola 👋, soy Emiliano Pulen</h1> <h3 align=\"center\">Un desarrollador frontend apasionado de Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emi2589/Proyecto-final-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emi2589/Proyecto-final-2/issues"
+  },
+  "homepage": "https://github.com/Emi2589/Proyecto-final-2#readme"
+}

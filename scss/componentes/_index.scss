@@ -1,0 +1,124 @@
+/* Header */
+
+
+
+.header-container-index {
+    background-image: url(../imagen/indexHed2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+
+
+.paragraph-header1 {
+       
+
+    font-size: 4rem;
+    margin-top: 10rem;
+    color: black;
+    
+}
+
+
+.paragraph-header {
+
+
+    font-size: 2rem;
+    margin-top: 50px;
+
+}
+
+
+
+
+@media screen and (max-width:800px ) {
+    .paragraph-header1 {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+
+    .paragraph-header {
+
+display: none;
+ 
+    }
+    
+}
+
+
+
+}
+
+
+/* Fin Header */
+
+
+/* Main */
+
+
+
+.main-index {
+    
+    padding: 50px;
+
+
+
+    .h1-main-index {
+        padding-bottom: 40px;
+    }
+
+
+}
+
+
+
+
+.section-container-index {
+    padding: 50px;
+
+
+
+    .div-section-indexxs {
+        display: none;
+    }
+    
+
+
+
+    @media screen and (max-width:1140px ) {
+
+        .div-section-indexlg {
+            display: none;
+        }
+    
+        .div-section-indexxs {
+            display: block;
+        }
+    
+    
+    }
+
+
+}
+
+
+
+
+/* Fin Main */
+
+
+
+
+/*                             Fin index                                */

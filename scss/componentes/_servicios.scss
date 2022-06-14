@@ -1,0 +1,150 @@
+.header-container-servicios {
+    background-image: url(../imagen/indexHed4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+
+
+    /* Fin Header */
+
+
+
+
+ 
+/* Main */
+
+
+
+
+ .main-servicios {
+    padding: 50px;
+    
+
+
+
+    
+
+.div-servicios1 {
+    background-image: url(../imagen/images-transf.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+.div-servicios2 {
+    background-image: url(../imagen/images-6.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.div-servicios3 {
+    background-image: url(../imagen/images-3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios4 {
+    background-image: url(../imagen/images-7.png);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.div-servicios5 {
+    background-image: url(../imagen/images-5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios6 {
+    background-image: url(../imagen/images-8.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.imag-servicios1:hover, 
+.imag-servicios2:hover, 
+.imag-servicios3:hover, 
+.imag-servicios4:hover, 
+.imag-servicios5:hover, 
+.imag-servicios6:hover {
+
+    transform: translatey(400px);
+    opacity: 0;
+    transition: all 2s;
+    
+    }
+
+
+
+    
+
+
+
+.div-main-servicios800 {
+    display: none;
+}
+
+
+@media screen and (max-width:800px ) {
+
+    .div-main-servicioslg {
+        display: none;
+        }
+
+
+
+        .div-main-serviciosimg {
+            display: none;
+
+            }
+        
+    
+            .div-main-servicios800 {
+        display: block;
+
+    }
+
+
+
+}
+
+
+
+
+}
+
+
+
+/* Fin Main */
+
+
+
+/* Fin Main */
+
+
+
+
+/*                           FIN SERVICIOS                              */

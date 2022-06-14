@@ -1,0 +1,608 @@
+html {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+}
+
+body {
+    background-color:rgb(202, 202, 207);
+    margin: 0;
+
+}
+
+
+
+
+/*                                index                                 */
+ 
+
+
+
+/* Header */
+
+
+
+.header-container-index {
+    background-image: url(../imagen/indexHed2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+        
+}
+
+.div-container-index {
+    
+   
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+   
+
+}
+
+
+.nav-item:hover {
+    background-color: #4a4a4a;
+    transition: all 0.4s linear;
+    border-radius: 7px;
+    
+    }
+
+
+    .paragraph-header1 {
+       
+
+        font-size: 4rem;
+        margin-top: 10rem;
+        
+        color: black;
+        
+    }
+
+    
+.paragraph-header {
+
+
+    font-size: 2rem;
+    margin-top: 50px;
+
+}
+
+
+@media screen and (max-width:800px ) {
+    .paragraph-header1 {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+
+    .paragraph-header {
+
+display: none;
+ 
+    }
+    
+}
+
+
+
+/* Fin Header */
+
+
+
+
+    
+/* Main */
+
+
+.main-index {
+    
+    padding: 50px;
+
+}
+
+.h1-main-index {
+    padding-bottom: 40px;
+}
+
+
+
+.section-container-index {
+    padding: 50px;
+}
+
+
+.div-section-indexxs {
+    display: none;
+}
+
+
+@media screen and (max-width:1140px ) {
+
+    .div-section-indexlg {
+        display: none;
+    }
+
+    .div-section-indexxs {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* Fin Main */
+
+
+
+
+
+/*                             Fin index                                */
+
+
+
+
+
+
+
+
+
+
+
+/*                              Servicios                                */
+
+
+/* Header */
+
+.header-container-servicios {
+    background-image: url(../imagen/indexHed4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+
+    /* Fin Header */
+
+
+
+    /* Main */
+
+    .main-servicios {
+        padding: 50px;
+    } 
+
+
+.imag-servicios1:hover, 
+.imag-servicios2:hover, 
+.imag-servicios3:hover, 
+.imag-servicios4:hover, 
+.imag-servicios5:hover, 
+.imag-servicios6:hover {
+
+    transform: translatey(400px);
+    opacity: 0;
+    transition: all 2s;
+    
+    }
+    
+
+.div-servicios1 {
+    background-image: url(../imagen/images-transf.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+.div-servicios2 {
+    background-image: url(../imagen/images-6.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.div-servicios3 {
+    background-image: url(../imagen/images-3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios4 {
+    background-image: url(../imagen/images-7.png);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.div-servicios5 {
+    background-image: url(../imagen/images-5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios6 {
+    background-image: url(../imagen/images-8.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-main-servicios800 {
+    display: none;
+}
+
+
+@media screen and (max-width:800px ) {
+
+    .div-main-servicioslg {
+        display: none;
+        }
+
+
+
+        .div-main-serviciosimg {
+            display: none;
+
+            }
+        
+    
+            .div-main-servicios800 {
+        display: block;
+
+    }
+
+
+
+}
+
+
+/* Main */
+
+
+
+.imag-servicios1:hover, 
+.imag-servicios2:hover, 
+.imag-servicios3:hover, 
+.imag-servicios4:hover, 
+.imag-servicios5:hover, 
+.imag-servicios6:hover {
+
+    transform: translatey(400px);
+    opacity: 0;
+    transition: all 2s;
+    
+    }
+    
+
+.div-servicios1 {
+    background-image: url(../imagen/images-transf.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+.div-servicios2 {
+    background-image: url(../imagen/images-6.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.div-servicios3 {
+    background-image: url(../imagen/images-3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios4 {
+    background-image: url(../imagen/images-7.png);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.div-servicios5 {
+    background-image: url(../imagen/images-5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-servicios6 {
+    background-image: url(../imagen/images-8.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+/* Fin Main */
+
+
+
+/* Fin Main */
+
+
+
+
+/*                           FIN SERVICIOS                              */
+
+
+
+
+
+
+
+
+
+/*                   NOSOTROS                     */
+
+
+
+
+ /* Header */
+
+ .header-container-nosotros {
+    background-image: url(../imagen/somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    
+
+    .main-nosotros {
+        padding: 50px;
+    }
+
+
+    .paragraph-header2 {
+
+        /* estas propiedades son aplicadas al header del 
+        html de nosotros, contacto y servicios */
+
+        font-size: 4rem;
+        margin-top: 10rem;
+        
+        color: white;
+    }
+
+    @media screen and (max-width:800px ) {
+
+        .paragraph-header2 {
+            font-size: 2rem;
+            margin-top: 5rem;
+
+        }
+    
+    
+    
+        }
+    
+    
+
+
+
+     /* Fin Header */
+
+
+
+
+
+
+/*                                             FIN NOSOTROS                                    */
+
+
+
+
+
+
+
+
+
+
+ 
+/*                                               CONTACTO                                       */
+
+
+
+
+
+
+    /* Header */
+
+    .header-container-contacto {
+        background-image: url(../imagen/contacto.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        height: 80vh;
+        width: 100%;
+        background-color: black;
+    
+        /* estas tres propiedades
+        se las ponemos para centrar
+        la posicion del parrafo que esta
+        dentro del header */
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+       /* Fin Header */
+
+
+
+
+
+       /* Main */
+
+
+
+       .main-contacto {
+           padding: 50px;
+       }
+
+
+
+       .mapa {
+        width: 30%;
+        height: 9rem;
+    }
+
+
+
+       /* Fin Main */
+
+
+
+
+
+       /*                                          FIN CONTACTO                                               */
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /*                                             CLIENTES                                                */
+
+
+  /* Header */
+
+.header-container-clientes {
+    background-image: url(../imagen/clientes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.main-clientes{
+    padding: 50px;
+}
+
+
+.section-clientes {
+    padding: 50px;
+
+    
+}
+
+
+.imag-clientes {
+    width: 40%;
+}
+
+@media screen and (max-width:800px ) {
+
+    .imag-clientes {
+        width: 100%;
+        }
+
+
+    }
+
+
+
+
+ /*                                                 FIN CLIENTES                                                */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
