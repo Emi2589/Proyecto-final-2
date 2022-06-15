@@ -1,0 +1,78 @@
+
+/*                   NOSOTROS                     */
+
+
+
+
+ /* Header */
+
+ .header-container-nosotros {
+    background-image: url(../imagen/somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+
+    .paragraph-header2 {
+
+        /* estas propiedades son aplicadas al header del 
+        html de nosotros, contacto y servicios */
+
+        font-size: 4rem;
+        margin-top: 10rem;
+        
+        color: white;
+    }
+
+
+}
+
+
+
+    .main-nosotros {
+        padding: 50px;
+   
+    
+
+
+
+
+
+
+    @media screen and (max-width:800px ) {
+
+        .paragraph-header2 {
+            font-size: 2rem;
+            margin-top: 5rem;
+
+        }
+    
+    
+    
+        }
+    }
+
+
+
+
+  /* Fin Header */
+
+
+
+
+
+
+/*                                             FIN NOSOTROS                                    */

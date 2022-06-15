@@ -1,3 +1,25 @@
 @import "../scss/componentes/navbar";
 @import "../scss/componentes/index";
 @import "../scss/componentes/servicios";
+@import "../scss/componentes/nosotros";
+@import "../scss/componentes/contacto";
+@import "../scss/componentes/clientes";
+
+
+
+
+@import "../scss/Base/listas.scss";
+
+
+
+html {
+    font-size: $medida-principal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+}
+
+body {
+    background-color: $color-principal;
+    margin: 0;
+
+}

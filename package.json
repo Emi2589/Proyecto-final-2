@@ -4,7 +4,7 @@
   "description": "<h1 align=\"center\">Hola 👋, soy Emiliano Pulen</h1> <h3 align=\"center\">Un desarrollador frontend apasionado de Argentina</h3>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prueba": "echo \"Error: no se especificó ninguna prueba\" && exit 1","build-css": "node-sass --include-path scss scss/style.scss css/style.css","watch-css": "nodemon -e scss -x \"npm ejecutar build-css\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Emi2589/Proyecto-final-2/issues"
   },
-  "homepage": "https://github.com/Emi2589/Proyecto-final-2#readme"
+  "homepage": "https://github.com/Emi2589/Proyecto-final-2#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
 }

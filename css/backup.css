@@ -404,7 +404,13 @@ display: none;
 
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center; 
+
+
+
+    
+
+}
     
 
     .main-nosotros {
@@ -430,10 +436,7 @@ display: none;
             margin-top: 5rem;
 
         }
-    
-    
-    
-        }
+    }
     
     
 

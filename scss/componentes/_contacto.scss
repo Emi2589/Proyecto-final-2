@@ -1,0 +1,76 @@
+/*                                               CONTACTO                                       */
+
+
+
+
+
+
+    /* Header */
+
+    .header-container-contacto {
+        background-image: url(../imagen/contacto.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        height: 80vh;
+        width: 100%;
+        background-color: black;
+    
+        /* estas tres propiedades
+        se las ponemos para centrar
+        la posicion del parrafo que esta
+        dentro del header */
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+        .paragraph-header2 {
+
+            /* estas propiedades son aplicadas al header del 
+            html de nosotros, contacto y servicios */
+    
+            font-size: 4rem;
+            margin-top: 10rem;
+            
+            color: white;
+        }
+        
+    }
+
+
+       /* Fin Header */
+
+
+
+
+
+       
+       /* Main */
+
+
+
+       .main-contacto {
+        padding: 50px;
+    
+
+
+
+    .mapa {
+     width: 40%;
+     height: 9rem;
+ }
+
+}
+
+    /* Fin Main */
+
+
+
+
+
+    /*                                          FIN CONTACTO                                               */

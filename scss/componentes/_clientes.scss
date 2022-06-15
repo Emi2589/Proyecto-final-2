@@ -1,0 +1,77 @@
+       /*                                             CLIENTES                                                */
+
+
+  /* Header */
+
+  .header-container-clientes {
+    background-image: url(../imagen/clientes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+
+    /* estas tres propiedades
+    se las ponemos para centrar
+    la posicion del parrafo que esta
+    dentro del header */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    .paragraph-header2 {
+
+        /* estas propiedades son aplicadas al header del 
+        html de nosotros, contacto y servicios */
+
+        font-size: 4rem;
+        margin-top: 10rem;
+        
+        color: white;
+    }
+    
+}
+
+
+
+.main-clientes {
+
+    padding: 50px;
+
+}
+
+.section-clientes {
+    padding: 50px;
+
+    
+
+
+.imag-clientes {
+    width: 40%;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width:800px ) {
+
+    .imag-clientes {
+        width: 100%;
+        }
+
+
+    }
+
+
+
+
+ /*                                                 FIN CLIENTES                                                */
