@@ -14,7 +14,7 @@
 .header-container-index {
   background-image: url(../imagen/indexHed2.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   background-attachment: fixed;
   height: 80vh;
@@ -81,7 +81,7 @@
 .header-container-servicios {
   background-image: url(../imagen/indexHed4.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   background-attachment: fixed;
   height: 80vh;
@@ -184,7 +184,7 @@
 .header-container-nosotros {
   background-image: url(../imagen/somos.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   background-attachment: fixed;
   height: 80vh;
@@ -288,7 +288,7 @@
 .header-container-clientes {
   background-image: url(../imagen/clientes.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   background-attachment: fixed;
   height: 80vh;
