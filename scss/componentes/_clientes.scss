@@ -1,3 +1,9 @@
+       
+       
+       @import "../Base/listas.scss";
+       
+       
+       
        /*                                             CLIENTES                                                */
 
 
@@ -13,10 +19,7 @@
     width: 100%;
     background-color: black;
 
-    /* estas tres propiedades
-    se las ponemos para centrar
-    la posicion del parrafo que esta
-    dentro del header */
+  
 
     display: flex;
     align-items: center;
@@ -24,15 +27,14 @@
 
 
 
-    .paragraph-header2 {
+    .paragraph-header-clienteslg {
 
-        /* estas propiedades son aplicadas al header del 
-        html de nosotros, contacto y servicios */
+
 
         font-size: 4rem;
         margin-top: 10rem;
         
-        color: white;
+        color: $color-terciario;
     }
     
 }
@@ -45,7 +47,7 @@
 
 }
 
-.section-clientes {
+.section-clienteslg {
     padding: 50px;
 
     
@@ -62,14 +64,91 @@
 
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:800px ) {
 
     .imag-clientes {
-        width: 100%;
+        width: 75%;
         }
+        
 
 
     }
+
+
+    @media screen and (min-width:800px ) {
+
+    
+        .section-clientesxs {
+            display: none;
+            
+        }
+    
+    
+    }
+
+
+    
+
+
+    @media screen and (max-width:800px ) {
+
+        .section-clienteslg {
+            display: none;
+        }
+    
+        .section-clientesxs {
+            display: block;
+            padding: 25px;
+        }
+    
+    
+    }
+
+    @media screen and (min-width:800px ) {
+
+        .paragraph-header-clientesxs {
+            display: none;
+        }
+        }
+        
+        
+        
+        @media screen and (max-width:800px ) {
+        
+            .paragraph-header-clienteslg {
+                display: none;
+            }
+        
+        
+        
+        
+            .paragraph-header-clientesxs {
+             
+                display: block;
+                
+                font-size: 2rem;
+        
+                font-size: 2rem;
+                margin-top: 10rem;
+                
+                
+                color: $color-terciario;
+        
+        
+        
+            }
+        
+        
+        }
 
 
 

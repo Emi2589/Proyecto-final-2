@@ -1,3 +1,13 @@
+
+
+
+@import "../Base/listas.scss";
+
+
+
+
+
+
 .header-container-servicios {
     background-image: url(../imagen/indexHed4.webp);
     background-repeat: no-repeat;
@@ -6,7 +16,7 @@
     background-attachment: fixed;
     height: 80vh;
     width: 100%;
-    background-color: black;
+    background-color: $color-secundario;
 
     /* estas tres propiedades
     se las ponemos para centrar
@@ -17,12 +27,12 @@
     align-items: center;
     justify-content: center; 
 
-    .paragraph-header1 {
+    .paragraph-header-servicioslg {
        
 
         font-size: 4rem;
         margin-top: 10rem;
-        color: black;
+        color: $color-terciario;
         
     }
 
@@ -151,7 +161,42 @@
 
 
 
+@media screen and (min-width:800px ) {
 
+    .paragraph-header-serviciosxs {
+        display: none;
+    }
+    }
+    
+    
+    
+    @media screen and (max-width:800px ) {
+    
+        .paragraph-header-servicioslg {
+            display: none;
+        }
+    
+    
+    
+    
+        .paragraph-header-serviciosxs {
+         
+            display: block;
+            
+            font-size: 2rem;
+    
+            font-size: 2rem;
+            margin-top: 10rem;
+            
+            
+            color: $color-terciario;
+    
+    
+    
+        }
+    
+    
+    }
 
 /* Fin Main */
 

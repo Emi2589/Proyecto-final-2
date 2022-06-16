@@ -1,4 +1,11 @@
 
+
+@import "../Base/listas.scss";
+
+
+
+
+
 /*                   NOSOTROS                     */
 
 
@@ -14,7 +21,7 @@
     background-attachment: fixed;
     height: 80vh;
     width: 100%;
-    background-color: black;
+    background-color: $color-secundario;
 
     /* estas tres propiedades
     se las ponemos para centrar
@@ -26,15 +33,14 @@
     justify-content: center; 
 
 
-    .paragraph-header2 {
+    .paragraph-header-nosotroslg {
 
-        /* estas propiedades son aplicadas al header del 
-        html de nosotros, contacto y servicios */
+        
 
         font-size: 4rem;
         margin-top: 10rem;
         
-        color: white;
+        color: $color-terciario;
     }
 
 
@@ -48,23 +54,50 @@
     
 
 
-
-
-
-
-    @media screen and (max-width:800px ) {
-
-        .paragraph-header2 {
-            font-size: 2rem;
-            margin-top: 5rem;
-
-        }
-    
-    
-    
-        }
     }
 
+
+
+
+
+
+
+    @media screen and (min-width:800px ) {
+
+        .paragraph-header-nosotrosxs {
+            display: none;
+        }
+        }
+        
+        
+        
+        @media screen and (max-width:800px ) {
+        
+            .paragraph-header-nosotroslg {
+                display: none;
+            }
+        
+        
+        
+        
+            .paragraph-header-nosotrosxs {
+             
+                display: block;
+                
+                font-size: 2rem;
+        
+                font-size: 2rem;
+                margin-top: 10rem;
+                
+                
+                color: $color-terciario;
+        
+        
+        
+            }
+        
+        
+        }
 
 
 

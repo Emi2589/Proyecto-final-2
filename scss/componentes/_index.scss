@@ -1,3 +1,9 @@
+
+
+@import "../Base/listas.scss";
+
+
+
 /* Header */
 
 
@@ -10,7 +16,7 @@
     background-attachment: fixed;
     height: 80vh;
     width: 100%;
-    background-color: black;
+    background-color: $color-secundario;
 
 
     display: flex;
@@ -22,17 +28,17 @@
 
 
 
-.paragraph-header1 {
+.paragraph-header-indexlg {
        
 
     font-size: 4rem;
     margin-top: 10rem;
-    color: black;
+    color: $color-secundario;
     
 }
 
 
-.paragraph-header {
+.paragraph-header-index {
 
 
     font-size: 2rem;
@@ -43,19 +49,7 @@
 
 
 
-@media screen and (max-width:800px ) {
-    .paragraph-header1 {
-        font-size: 2rem;
-        margin-top: 5rem;
-    }
 
-    .paragraph-header {
-
-display: none;
- 
-    }
-    
-}
 
 
 
@@ -113,6 +107,45 @@ display: none;
 
 }
 
+
+@media screen and (min-width:800px ) {
+
+    .paragraph-header-indexxs {
+        display: none;
+    }
+
+    }
+    
+    
+    
+    @media screen and (max-width:800px ) {
+    
+        .paragraph-header-indexlg, 
+        .paragraph-header-index {
+            display: none;
+        }
+    
+    
+    
+    
+        .paragraph-header-indexxs {
+         
+            display: block;
+            
+            font-size: 2rem;
+    
+            font-size: 2rem;
+            margin-top: 10rem;
+            
+            
+            color: $color-secundario;
+    
+    
+    
+        }
+    
+    
+    }
 
 
 
