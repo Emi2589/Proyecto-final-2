@@ -260,8 +260,8 @@
   padding: 50px;
 }
 .main-contacto .mapa {
-  width: 40%;
-  height: 9rem;
+  width: 50%;
+  height: 40vh;
 }
 
 @media screen and (min-width: 800px) {
